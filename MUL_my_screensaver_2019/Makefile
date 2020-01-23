@@ -27,7 +27,7 @@ LIBPATH =		./lib
 LIB = 			my
 
 all:
-	gcc $(SOURCE) -O4 $(NAME) -l csfml-graphics -l m
+	gcc $(SOURCE) -O4 -o $(NAME) -l csfml-graphics -l m
 
 all2:
 	clear

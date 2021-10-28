@@ -61,7 +61,7 @@ void init_fmo3(f_m_o_t *fmo)
 f_m_o_t *init_fmo_d(void)
 {
     f_m_o_t *fmo = malloc(sizeof(f_m_o_t));
-    fmo->window_x = 1600, fmo->window_y = 1000, fmo->window_z = 1000;
+    fmo->window_x = 900, fmo->window_y = 900, fmo->window_z = 900;
     fmo->balls_nb = 15000, fmo->balls_nb_max = fmo->balls_nb;
     fmo->interact_range = 30;
     fmo->interact_range_sqr = pow(fmo->interact_range, 2);
